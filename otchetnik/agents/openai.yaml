@@ -1,0 +1,14 @@
+interface:
+  display_name: Отчетник
+  short_description: Понятные учебные отчеты по твоим правилам
+  default_prompt: Используй $otchetnik, чтобы подготовить понятный учебный отчет по
+    заданию и моим материалам без лишних усложнений.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
